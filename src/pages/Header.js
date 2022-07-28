@@ -12,9 +12,12 @@ const Header = () => {
             <div class="flex-none">
 
                 <ul class=" menu-horizontal">
-                    <li><NavLink to='/' className='text-white font-bold px-8'>Home</NavLink></li>
-                    <li><NavLink to='/service' className='text-white font-bold  px-8'>Service</NavLink></li>
-                    <li><NavLink to='/login' className='text-white font-bold  px-8'>Login</NavLink></li>
+                    <li><NavLink to='/' style={({ isActive }) =>
+                        (isActive ? { color: '#D7F561' } : { color: 'White' })} activeStyle={{ color: "#D4F454", textDecoration: "none" }} className='text-white font-bold px-8'>Home</NavLink></li>
+                    <li><NavLink to='/service' style={({ isActive }) =>
+                        (isActive ? { color: '#D7F561' } : { color: 'White' })} activeStyle={{ color: "#D4F454", textDecoration: "none" }} className='text-white font-bold  px-8'>Service</NavLink></li>
+                    <li><NavLink to='/login' style={({ isActive }) =>
+                        (isActive ? { color: '#D7F561' } : { color: 'White' })} activeStyle={{ color: "#D4F454", textDecoration: "none" }} className='text-white font-bold  px-8'>Login</NavLink></li>
 
                 </ul>
             </div>
