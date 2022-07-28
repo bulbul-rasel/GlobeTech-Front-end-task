@@ -15,8 +15,8 @@ const Services = () => {
     return (
         <div className='bg-blue-900'>
             <Vector></Vector>
-            <h1 className='text-center text-3xl tracking-widest text-white'>SERVICES</h1>
-            <h1 className='text-center text-3xl font-bold tracking-widest text-white'>We provides services to our clients</h1>
+            <h1 className='text-center text-3xl tracking-widest text-white font-Poppins font-medium'>SERVICES</h1>
+            <h1 className='text-center text-3xl font-bold tracking-widest text-white font-Poppins py-6'>We provides services to our clients</h1>
             <div className='grid grid-cols-3 gap-10 py-8  px-36'>
                 {
                     services.map(service => <Service

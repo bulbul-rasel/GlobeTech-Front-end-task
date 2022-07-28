@@ -1,7 +1,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"]
+      },
+    },
   },
   daisyui: {
     themes: [

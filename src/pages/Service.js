@@ -8,8 +8,8 @@ const Service = (props) => {
                 <img src={img} alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
-                <h2 class="card-title text-sky-500">{name}</h2>
-                <p className='font-thin text-justify'>{description}</p>
+                <h2 class="card-title text-sky-500 font-Montserrat font-medium pb-9">{name}</h2>
+                <p className='font-thin text-justify font-Poppins'>{description}</p>
                 <div class="card-actions">
                     <button class="btn bg-sky-500 border-none font-bold rounded-2xl px-8 text-white">More</button>
                 </div>

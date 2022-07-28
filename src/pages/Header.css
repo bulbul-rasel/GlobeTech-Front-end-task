@@ -9,6 +9,11 @@ nav {
     font-family: "Teko", sans-serif;
 }
 
+.active {
+    color: #D7F561
+}
+
+
 .link {
     text-decoration: none;
     margin-left: 15px;
