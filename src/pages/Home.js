@@ -21,6 +21,7 @@ const Home = () => {
                         <button class="btn btn-outline btn-primary capitalize  font-Poppins rounded-none font-bold mx-10">Our Mission</button>
                     </div>
                     <div>
+
                         <div id="content">
                             <h1>Test Circle</h1>
 

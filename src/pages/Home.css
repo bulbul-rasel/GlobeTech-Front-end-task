@@ -20,8 +20,7 @@
     width: 300px;
     border-radius: 50%;
     border: 3px solid #C2F1FF;
-    top: auto;
-    left: auto;
+
 }
 
 .circle-1:after {
