@@ -1,6 +1,7 @@
 import React from 'react';
 import PrimaryColor from './PrimaryColor';
 import Vector from './Vector';
+import './Home.css'
 
 
 const Home = () => {
@@ -19,7 +20,23 @@ const Home = () => {
                         <PrimaryColor>Support Us</PrimaryColor>
                         <button class="btn btn-outline btn-primary capitalize  font-Poppins rounded-none font-bold mx-10">Our Mission</button>
                     </div>
-                    <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div id="content">
+                            <h1>Test Circle</h1>
+
+                            <div id="outer-circle-2">
+
+                                <div id="outer-circle">
+                                    <div id="outer-circle-1">
+
+                                        <div id="inner-circle">
+                                            <span id="inside-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

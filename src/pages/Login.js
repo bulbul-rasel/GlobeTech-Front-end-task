@@ -1,16 +1,21 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import navigator from '../asset/Vector 1.svg'
 import eye from '../asset/Eye.svg'
 import './Login.css'
 
 const Login = () => {
+    const navigate = useNavigate();
+    const navigateHome = () => {
+        navigate('/home')
+    }
     return (
         <div class="grid grid-cols-4  bg-slate-300">
             <div class=" col-span-1 bg-blue-900 ">
                 <h1 className='uppercase text-center text-blue-500 font-Montserrat font-bold text-2xl'>Glovetech</h1>
                 <h1 className='uppercase text-center text-blue-500 font-Montserrat font-bold text-2xl'>Companey Limited</h1>
                 <p className='text-white text-xs text-center py-14 font-Montserrat tracking-widest'>Make yourself digitalized & more effecient</p>
-                <button className='pt-96 px-28 '>
+                <button className='pt-96 px-28 ' onClick={navigateHome}>
 
                     <img src={navigator} alt="" />
                 </button>
